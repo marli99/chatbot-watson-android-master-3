@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnboardingActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vpMain"/>
+
+
+    <!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:layout_width="409dp"-->
+<!--        android:layout_height="729dp"-->
+<!--        app:layout_editor_absoluteX="1dp"-->
+<!--        app:layout_editor_absoluteY="1dp"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="-60dp"-->
+<!--        tools:layout_editor_absoluteY="-233dp">-->
+
+<!--    </androidx.viewpager.widget.ViewPager>-->
+
+    <TextView
+        android:layout_width="420dp"
+        android:layout_height="150dp"
+        android:background="#5B8EAE"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/logowhite"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Friend "
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="10pt"
+        tools:ignore="MissingConstraints"></TextView>
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="300dp"
+        android:text="We are happy to Welcome you on The path to self discover.
+
+
+
+        We want to help you find the right Answers by providing the right questions. Let them lead you to a better understanding of yourself.
+        Enjoy the journey into your inner World of thought and feelings!"
+        android:textAlignment="center"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="8pt"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"/>
+
+<!--        <Button-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:background="#ffffff"-->
+<!--            android:layout_marginLeft="100dp"-->
+<!--            android:text="Get Started">-->
+
+<!--        </Button>-->
+
+        <TextView
+            android:layout_width="420dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="590dp"
+            android:background="@drawable/patheleven"
+            tools:ignore="MissingConstraints">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/skipButton"
+            android:layout_width="150dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="640dp"
+            android:textSize="9pt"
+            android:text="Skip Tour"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:background="#00FFFFFF"
+            android:textColor="#ffffff">
+
+        </Button>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:paddingBottom="20dp">-->
+
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight = "true"-->
+<!--                android:background="#000000">-->
+
+<!--            </Button>-->
+
+<!--        </LinearLayout>-->
+
+
+</RelativeLayout>

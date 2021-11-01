@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Onboardingthree">
+
+    <TextView
+        android:layout_width="420dp"
+        android:layout_height="150dp"
+        android:textColor="#ffffff"
+        android:textSize="10pt"
+        android:padding="20pt"
+        android:textStyle="bold"
+        android:text="Gill will be your guide
+through Your journey!
+
+"
+        android:background="#5B8EAE"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_baseline_emoji_emotions_24"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="192dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="239dp"
+        android:layout_height="157dp"
+        android:text=" Talk to Gill how you are feeling.
+
+You will better understand the
+Changes in you."
+        android:textAlignment="center"
+        android:textSize="9pt"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!--        <Button-->
+        <!--            android:layout_width="200dp"-->
+        <!--            android:layout_height="60dp"-->
+        <!--            android:background="#ffffff"-->
+        <!--            android:layout_marginLeft="100dp"-->
+        <!--            android:text="Get Started">-->
+
+        <!--        </Button>-->
+
+        <TextView
+            android:layout_width="420dp"
+            android:layout_height="150dp"
+            android:background="@drawable/patheleven"
+            tools:ignore="MissingConstraints">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/skipButton"
+            android:layout_width="150dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="50dp"
+            android:textSize="9pt"
+            android:text="Skip Tour"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:background="#00FFFFFF"
+            android:textColor="#ffffff">
+
+        </Button>
+
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            android:paddingBottom="20dp">-->
+
+        <!--            <Button-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_alignParentRight = "true"-->
+        <!--                android:background="#000000">-->
+
+        <!--            </Button>-->
+
+        <!--        </LinearLayout>-->
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

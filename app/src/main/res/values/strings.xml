@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SoothWell</string>
+    <string name="what_s_on_your_mind">Enter your query</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="onboardingtitle">Hello Friend</string>
+    <string name="onboardingdesc">We are happy to Welcome you on The path to self discover.
+
+
+
+        We want to help you find the right Answers by providing the right questions. Let them lead you to a better understanding of yourself.
+        Enjoy the journey into your inner World of thought and feelings!</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "933818281166",
+    "project_id": "soothwell-ec49e",
+    "storage_bucket": "soothwell-ec49e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933818281166:android:9b586ea45af1dc61e2749f",
+        "android_client_info": {
+          "package_name": "com.example.vmac.chatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933818281166-lo129qido1ftb82n2tuq9g6l0rmbdm9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc4bB7w4Nh9YKv26WmWilynkI0SfAzXYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933818281166-lo129qido1ftb82n2tuq9g6l0rmbdm9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
